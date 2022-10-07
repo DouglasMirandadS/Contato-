@@ -5,6 +5,7 @@
 
         <link rel="stylesheet" href="C:\Users\User\Desktop\Curso Alura Premiere\reset\reset.css">
         <link rel="stylesheet" href="contato.css">
+        <link rel="icon" href="C:\Users\User\Desktop\Curso Alura Premiere\img\logo-branco.png">
     </head>
     <body>
         <header>
@@ -27,10 +28,10 @@
                     <input type="text" id="nome" class="input-padrao">
 
                     <label for="email">Email</label>
-                    <input type="text" id="email" class="input-padrao">
+                    <input type="text" id="email" class="input-padrao" placeholder="email@dominio.com.br">
 
                     <label for="telefone">Telefone</label>
-                    <input type="text" id="telefone" class="input-padrao">
+                    <input type="text" id="telefone" class="input-padrao" placeholder="(XX) XXXXX-XXXX">
 
                     <label for="mensagem">Mensagem</label>
                     <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
@@ -43,6 +44,15 @@
 
                     <label for="radio-whatsapp"><input type="radio" name="contato" value="telefone" id="radio-whatsapp">Whatsapp</label>
                     
+                </div>
+
+                <div>
+                    <p>Qual o horário para o atendimento?</p>
+                    <select>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
                 </div>
 
                 <label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
