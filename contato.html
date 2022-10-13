@@ -5,6 +5,7 @@
 
         <link rel="stylesheet" href="C:\Users\User\Desktop\Curso Alura Premiere\reset\reset.css">
         <link rel="stylesheet" href="contato.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
         <link rel="icon" href="C:\Users\User\Desktop\Curso Alura Premiere\img\logo-branco.png">
     </head>
     <body>
